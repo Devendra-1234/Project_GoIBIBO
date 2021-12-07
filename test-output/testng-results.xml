@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37225" started-at="2021-12-07T09:03:49 IST" finished-at="2021-12-07T09:04:26 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37225" started-at="2021-12-07T09:03:49 IST" finished-at="2021-12-07T09:04:26 IST">
+      <class name="com.testcases.LoginPageTest">
+        <test-method status="PASS" signature="Reportsetup()[pri:0, instance:com.testcases.LoginPageTest@7cbd213e]" name="Reportsetup" is-config="true" duration-ms="274" started-at="2021-12-07T09:03:49 IST" finished-at="2021-12-07T09:03:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reportsetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testcases.LoginPageTest@7cbd213e]" name="setup" is-config="true" duration-ms="29163" started-at="2021-12-07T09:03:50 IST" finished-at="2021-12-07T09:04:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidMobileNoTest(long)[pri:2, instance:com.testcases.LoginPageTest@7cbd213e]" name="ValidMobileNoTest" duration-ms="5849" started-at="2021-12-07T09:04:19 IST" data-provider="GetMobileNoUsingExcel" finished-at="2021-12-07T09:04:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[99598237]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidMobileNoTest -->
+        <test-method status="PASS" signature="closesetup()[pri:0, instance:com.testcases.LoginPageTest@7cbd213e]" name="closesetup" is-config="true" duration-ms="733" started-at="2021-12-07T09:04:25 IST" finished-at="2021-12-07T09:04:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closesetup -->
+        <test-method status="PASS" signature="GenerateReport()[pri:0, instance:com.testcases.LoginPageTest@7cbd213e]" name="GenerateReport" is-config="true" duration-ms="425" started-at="2021-12-07T09:04:26 IST" finished-at="2021-12-07T09:04:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GenerateReport -->
+      </class> <!-- com.testcases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
